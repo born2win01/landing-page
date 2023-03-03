@@ -6,7 +6,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: #ffb3ba;
     align-items: center;
     height: 50px;
     padding: 10px 50px;
@@ -113,7 +113,6 @@ img {
 
 .lastcall {
     padding: 1rem 50px;
-    border: 2px red solid;
     margin: 3rem;
     background: violet;
     color: white;
@@ -131,15 +130,18 @@ img {
 
 .action {
     
-    border: 2px red solid;
 }
 .action-subtext {
-    
-    border: 2px red solid;
     
     
 }
 .sub {
     display: flex;
     justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
 }
