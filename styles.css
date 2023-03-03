@@ -25,3 +25,31 @@ a {
 .header h1 {
     font-size: 32px;
 }
+
+.hero-container {
+    display: flex;
+    background: pink;
+    padding: 10px 50px;
+    justify-content: space-between
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.hero-image {
+    display: flex;
+    height: 100px;
+    width: 200px;
+    
+}   
+
+.hero-text button {
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+    
+}
