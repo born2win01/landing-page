@@ -110,3 +110,36 @@ img {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.lastcall {
+    padding: 1rem 50px;
+    border: 2px red solid;
+    margin: 3rem;
+    background: violet;
+    color: white;
+}
+
+
+.sub button {
+
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+    background: violet;
+    color: white;
+}
+
+.action {
+    
+    border: 2px red solid;
+}
+.action-subtext {
+    
+    border: 2px red solid;
+    
+    
+}
+.sub {
+    display: flex;
+    justify-content: space-between;
+}
