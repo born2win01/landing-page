@@ -42,11 +42,16 @@ a {
 }
 
 .hero-image {
-    display: flex;
-    height: 100px;
-    width: 200px;
+    
+    height: 150px;
+    width: 400px;
     
 }   
+
+.hero-image img {
+    height: 150px;
+    width: 400px;
+}
 
 .hero-text button {
     border-radius: 8px;
@@ -55,28 +60,53 @@ a {
     
 }
 
-.images-container {
+.popular-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 1rem 50px;
+    background-color: lightpink;
+}
+
+.popular {
+    padding: 1rem 50px;
+    background-color: lightpink;  
+}
+
+.popular h2{
+ font-size: 32px;
+ font-style: italic;
 }
 
 img {
- width: 200px;
- height: 200px;
+ width: 150px;
+ height: 150px;
 
 }
 
-.images {
-    display: flex;
-    flex-wrap: wrap;
+.info {
+   text-align: center; 
+   
 }
 
-.images button{
+.info button {
     border-radius: 8px;
     height: 30px;
+    width: 80px;
 }
-.img-text {
+
+.review-container {
+    padding: 1rem 50px;
+    background-color:#C492B1;
+}
+
+.review {
+    font-style: italic;
+    font-size: 20px;
+}
+.author {
     display: flex;
-    border: 2px red solid;
-    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
 }
