@@ -38,6 +38,7 @@ a {
     flex-direction: column;
     gap: 10px;
     width: 200px;
+
 }
 
 .hero-image {
@@ -52,4 +53,30 @@ a {
     height: 30px;
     width: 80px;
     
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+ width: 200px;
+ height: 200px;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images button{
+    border-radius: 8px;
+    height: 30px;
+}
+.img-text {
+    display: flex;
+    border: 2px red solid;
+    align-items: center;
 }
